@@ -1,14 +1,14 @@
 
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import { AuthProvider, useAuth } from './hooks/useAuth';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
-import SelectStagePage from './pages/SelectStagePage';
-import SelectBookPage from './pages/SelectBookPage';
-import ChatPage from './pages/ChatPage';
-import AdminDashboardPage from './pages/AdminDashboardPage';
-import SubscriptionRequiredPage from './pages/SubscriptionRequiredPage';
+import { AuthProvider, useAuth } from './hooks/useAuth.tsx';
+import LoginPage from './pages/LoginPage.tsx';
+import RegisterPage from './pages/RegisterPage.tsx';
+import SelectStagePage from './pages/SelectStagePage.tsx';
+import SelectBookPage from './pages/SelectBookPage.tsx';
+import ChatPage from './pages/ChatPage.tsx';
+import AdminDashboardPage from './pages/AdminDashboardPage.tsx';
+import SubscriptionRequiredPage from './pages/SubscriptionRequiredPage.tsx';
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
